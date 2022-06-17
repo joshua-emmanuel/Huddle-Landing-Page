@@ -84,7 +84,7 @@ button {
     color: white;
     padding: .8rem 2.5rem;
     border-radius: 1.5rem;
-    font-weight: 100;
+    font-weight: bold;
     font-size: .7rem;
     margin-top: 2rem;
 }
@@ -266,7 +266,7 @@ aside button {
     color: white;
     padding: 1rem 3.5rem;
     border-radius: 2rem;
-    font-weight: 100;
+    font-weight: bold;
     font-size: 1rem;
     margin-top: 2rem;
     box-shadow: 1px 1px 15px rgba(0, 37, 46, 0.2);
