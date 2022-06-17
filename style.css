@@ -180,7 +180,7 @@ main {
 footer {
     background-color: hsl(192, 100%, 9%);
     color: white;
-    padding: 5rem;
+    padding: 12rem 5rem 5rem 5rem;
 }
 
 .filter-white {
@@ -190,4 +190,92 @@ footer {
 .footer-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.footer-icon {
+    margin-right: 200px;
+    margin: 5px;
+    height: 20px;
+}
+
+.f__contact {
+    display: flex;
+}
+
+.f__contact p {
+    font-size: .9rem;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.footer-grid  {
+    padding-top: 2rem;
+}
+
+.footer-grid p {
+    font-size: .9rem;
+}
+
+.sm-icons {
+    grid-row: span 3;
+}
+
+.grid-item1 {
+    grid-row: span 2;
+}
+
+.grid-item5 {
+    grid-column-start: 1;
+}
+
+.grid-item6 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.grid-item7 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.sm-icon {
+    padding-right: 1rem;
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+aside {
+    background-color: #fff;
+    color: hsl(192, 100%, 9%);
+    max-width: 650px;
+    text-align: center;
+    padding: 3rem;
+    margin: auto;
+    box-shadow: 1px 1px 15px rgba(0, 37, 46, 0.2);
+    border-radius: 1rem;
+    position: relative;
+    top: 5rem;
+}
+
+aside button {
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 1rem 3.5rem;
+    border-radius: 2rem;
+    font-weight: 100;
+    font-size: 1rem;
+    margin-top: 2rem;
+    box-shadow: 1px 1px 15px rgba(0, 37, 46, 0.2);
+}
+
+.copyright {
+    font-size: .6rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 80%;
+    padding-top: 1rem;
 }
