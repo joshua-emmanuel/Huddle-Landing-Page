@@ -485,9 +485,9 @@ footer {
 
     .copyright {
         margin: auto;
-        margin-top: 1rem;
+        margin-top: .5rem;
         text-align: center;
-        font-size: 1rem;
+        font-size: .8rem;
     }
 }
 
